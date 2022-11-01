@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Red+Hat+Text:wght@400;700&display=swap" rel="stylesheet">
+    <!-- output tailwind css -->
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Covid-19 | Landing Page</title>
+</head>
+<body>
+    <header class="navbar fixed w-full">
+        <div class="container">
+            <div class="wrapper h-20 flex items-center justify-between">
+                <div class="navbar-brand flex items-center space-x-3">
+                    <img src="img/logo/logo.png" width="45" alt="">
+                    <div class="text-logo text-custom-green font-bold uppercase">Covid-19</div>
+                </div>
+                <div class="humberger text-lg lg:hidden">
+                    <button><i class="fa-solid fa-bars"></i></button>
+                </div>
+                <ul class="navbar-nav flex items-center space-x-10 text-custom-green text-lg font-medium ml-auto max-lg:hidden">
+                    <li class="nav-item">
+                        <a href="#overview" class="nav-link active hover:text-custom-red transition duration-300">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link hover:text-custom-red transition duration-300">Contagion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link hover:text-custom-red transition duration-300">Symptoms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link hover:text-custom-red transition duration-300">Prevention</a>
+                    </li>
+                    <button class="border border-custom-red rounded-full py-2 px-7 text-custom-red font-semibold hover:bg-custom-red hover:ease-out duration-300 hover:text-custom-white">Contact</button>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section id="overview" class="min-h-screen flex items-center max-lg:pt-20">
+        <div class="container">
+            <div class="wrapper">
+                <div class="flex flex-row max-lg:gap-5 items-center max-lg:flex-col-reverse justify-between">
+                    <div class="col-left basis-1/2">
+                        <div class="text-title">
+                            <h3 class="text-custom-red text-2xl font-semibold">COVID-19 Alert</h3>
+                            <h1 class="text-custom-green text-4xl font-bold capitalize pt-3">Stay at Home quarantine
+                                To stop Corona virus
+                            </h1>
+                            <p class="font-normal text-md pt-8 max-sm:pt-4">There is no specific medicine to prevent or treat coronavirus disease (COVID-19). 
+                                People may need supportive care to .
+                            </p>
+                            <div class="button mt-8">
+                                <button class="btn-custom-red shadow-lg">Let Us Help</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-right basis-1/2">
+                        <img src="img/asset/hero-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="min-h-screen flex items-center">
+        <div class="container">
+            <div class="wrapper">
+                <div class="flex flex-row items-center max-lg:gap-5 max-lg:flex-col">
+                    <div class="col-left basis-1/2">
+                        <img src="img/asset/Mask girl.png" class="w-screen" alt="">
+                    </div>
+                    <div class="col-right basis-1/2">
+                        <div class="text-title">
+                            <h3 class="capitalize text-custom-red text-2xl font-semibold">what is covid-19</h3>
+                            <h1 class="text-4xl text-custom-green font-bold py-3">Coronavirus</h1>
+                            <p class="font-normal text-sm leading-loose">Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type has caused a recent outbreak of respiratory illness 
+                                now called COVID-19.Lauren Sauer, M.S., 
+                                the director of operations with the Johns Hopkins Office of Critical Event Preparedness and Response
+                            </p>
+                            <div class="button mt-8">
+                                <button class="bg-custom-pink py-3 px-7 rounded-full text-custom-red font-bold">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
