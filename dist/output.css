@@ -616,14 +616,6 @@ p {
   margin-top: 2rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
 .flex {
   display: flex;
 }
@@ -672,22 +664,12 @@ p {
   margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-y-3 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
-}
-
 .scroll-smooth {
   scroll-behavior: smooth;
 }
 
 .rounded-full {
   border-radius: 9999px;
-}
-
-.rounded {
-  border-radius: 0.25rem;
 }
 
 .border {
@@ -714,26 +696,6 @@ p {
   padding-right: 1.75rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
-.py-7 {
-  padding-top: 1.75rem;
-  padding-bottom: 1.75rem;
-}
-
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -745,14 +707,6 @@ p {
 
 .pt-8 {
   padding-top: 2rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
-}
-
-.text-center {
-  text-align: center;
 }
 
 .text-lg {
