@@ -7,3 +7,12 @@ for(let i = 0; i < navItem.length; i++) {
             this.className += " active"
         })
     }
+
+    
+function myFunction() {
+    let dropDown = document.getElementById('dropdown-navbar')
+    if(dropDown) {
+        dropDown.classList.toggle('hidden')
+        // dropDown.classList.add('transition', 'duration-300')
+    }
+}

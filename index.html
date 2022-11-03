@@ -19,13 +19,31 @@
 <body>
     <header class="navbar backdrop-blur-md fixed w-full z-10">
         <div class="container">
-            <div class="wrapper h-20 flex items-center justify-between">
+            <div class="wrapper h-20 flex items-center justify-between relative">
                 <div class="navbar-brand flex items-center space-x-3">
                     <img src="src/img/logo/logo.png" width="45" alt="">
                     <div class="text-logo text-custom-green font-bold uppercase">Covid-19</div>
                 </div>
                 <div class="humberger text-lg lg:hidden">
-                    <button><i class="fa-solid fa-bars"></i></button>
+                    <button onclick="myFunction()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div id="dropdown-navbar" class="dropdown-navbar absolute right-0 top-full py-5 px-10 w-1/2 md:w-full rounded-md bg-custom-white text-center shadow-lg hidden">
+                        <ul class="space-y-5 text-custom-green">
+                            <li class="nav-item">
+                                <a href="#overview" class="nav-link active">Overview</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contagion" class="nav-link">Contagion</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Symptoms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Prevention</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <ul class="navbar-nav flex items-center space-x-10 text-custom-green text-lg font-medium ml-auto max-lg:hidden">
                     <li class="nav-item">
