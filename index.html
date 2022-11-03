@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/img/logo/logo.png" type="image/x-icon">
     <!-- font css -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +17,7 @@
     <title>Covid-19 | Landing Page</title>
 </head>
 <body>
-    <header class="navbar fixed top-0 w-full">
+    <header class="navbar backdrop-blur-md fixed w-full z-10">
         <div class="container">
             <div class="wrapper h-20 flex items-center justify-between">
                 <div class="navbar-brand flex items-center space-x-3">
@@ -59,7 +60,7 @@
                                 People may need supportive care to .
                             </p>
                             <div class="button mt-8">
-                                <button class="btn-custom-red shadow-lg">Let Us Help</button>
+                                <button class="btn-custom-red shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Let Us Help</button>
                             </div>
                         </div>
                     </div>
@@ -71,18 +72,18 @@
         </div>
     </section>
 
-    <section id="about" class="min-h-screen flex items-center">
+    <section id="about" class="min-h-screen flex items-center max-sm:pt-10">
         <div class="container">
             <div class="wrapper">
                 <div class="flex flex-row items-center max-lg:gap-5 max-lg:flex-col">
                     <div class="col-left basis-1/2">
-                        <div class="image relative">
-                            <img src="src/img/asset/Mask girl.png" class="w-screen" alt="">
-                            <div class="corona">
+                        <div class="image">
+                            <img src="src/img/asset/image-covid.png" class="w-screen" alt="">
+                            <!-- <div class="corona">
                                 <img src="src/img/asset/corona 1.png" class="w-44 absolute top-36 left-36" alt="">
                                 <img src="src/img/asset/corona 2.png" class="w-28 absolute bottom-44 right-36" alt="">
                                 <img src="src/img/asset/corona 3.png" class="w-36 absolute bottom-28 left-48" alt="">
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="col-right basis-1/2">
@@ -94,7 +95,7 @@
                                 the director of operations with the Johns Hopkins Office of Critical Event Preparedness and Response
                             </p>
                             <div class="button mt-8">
-                                <button class="bg-custom-pink py-3 px-7 rounded-full text-custom-red font-bold">Learn More</button>
+                                <button class="bg-custom-pink py-3 px-7 rounded-full text-custom-red font-bold hover:opacity-80 transition duration-300 ease-in-out">Learn More</button>
                             </div>
                         </div>
                     </div>
@@ -103,7 +104,7 @@
         </div>
     </section>
 
-    <section id="contagion" class="min-h-screen flex items-center">
+    <section id="contagion" class="flex items-center pt-20">
         <div class="container">
             <div class="wrapper max-sm:pt-8">
                 <div class="text-title text-center">
@@ -147,6 +148,10 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section class="min-h-screen">
+
     </section>
 
     <script src="src/script.js"></script>
