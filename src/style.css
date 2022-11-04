@@ -24,3 +24,7 @@
   .container {
     @apply w-4/5 mx-auto
   }
+
+  /* .navbar-nav {
+    @apply absolute top-full right-0 bg-custom-white shadow-lg p-10 space-y-5 w-full
+  } */
