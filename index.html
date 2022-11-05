@@ -21,14 +21,14 @@
 <nav class="navbar backdrop-blur-md fixed w-full py-2.5 z-10">
     <div class="container flex flex-wrap justify-between items-center mx-auto">
       <a href="#" class="flex items-center">
-          <img src="src/img/logo/logo.png" class="mr-3 h-9" alt="covid-19">
+          <img src="src/img/logo/logo.png" id="rotate" class="mr-3 h-9" alt="covid-19">
           <span class="self-center text-lg font-semibold text-custom-green uppercase">Covid-19</span>
       </a>
       <button type="button" onclick="myFunction()" class="inline-flex items-center p-2 ml-3 text-lg md:hidden">
         <!-- <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg> -->
         <i class="fa-solid fa-bars"></i>
       </button>
-      <div id="navbar-nav" class="hidden md:block w-full md:w-auto">
+      <div id="navbar-nav" class="hidden max-lg:mt-7 md:block w-full md:w-auto">
         <ul class="flex flex-col max-md:space-y-5 md:items-center text-center py-4 md:flex-row md:space-x-10 text-md text-custom-green max-lg:bg-custom-white max-lg:p-10">
           <li class="nav-item">
             <a href="#overview" class="block active">Overview</a>
@@ -326,7 +326,7 @@
         <div class="container">
             <div class="wrapper flex items-center max-lg:flex-col max-lg:space-y-8 justify-between">
                 <div class="navbar-brand flex items-center">
-                    <img src="src/img/logo/logo.png" class="mr-3" alt="">
+                    <img src="src/img/logo/logo.png" class="h-14 mr-3" alt="">
                     <div class="logo font-bold text-custom-green uppercase">Covid - 19</div>
                 </div>
                 <div class="nav">
@@ -345,11 +345,19 @@
                         </li>
                     </ul>
                 </div>
-                <div class="sosmed space-x-6 text-lg">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-youtube"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-instagram"></i>
+                <div class="sosmed space-x-6 flex text-lg">
+                    <div class="fb text-[#3b5998]">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="youtube text-[#FF0000]">
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <div class="twitter text-[#00acee]">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="instagram text-[#bc2a8d]">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
                 </div>
             </div>
             <h3 class="my-10 text-center text-custom-green">2022 @ All rights reserved by achmad zaki f.</h3>
