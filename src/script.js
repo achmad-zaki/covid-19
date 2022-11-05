@@ -8,7 +8,7 @@ for(let i = 0; i < navItem.length; i++) {
     }
 
 function myFunction() {
-    let dropDown = document.getElementById('dropdown-navbar')
+    let dropDown = document.getElementById('navbar-nav')
     if(dropDown) {
         dropDown.classList.toggle('hidden')
     }
